@@ -1,0 +1,852 @@
+/* ++++ Header ++++ */
+
+header {
+	width: 100%;
+	height: 85px;
+	border-bottom: 1px solid black;
+	background-color: #083f63;
+}
+
+.header-pusher {
+	width: 100%;
+	height: 1px;
+}
+
+header>.rows {
+	margin-left: 7px;
+	margin-right: 7px;
+	height: 85px;
+}
+
+
+
+
+/* ++++ Header-Logo ++++ */
+
+.kochkurs-header-logo {
+	float: left;
+	width: 16.666666667%;
+	height: 85px;
+	cursor: pointer;
+}
+
+.kochkurs-logo {
+
+	width: 100%;
+	height: 85px;
+	text-align:center;
+}
+
+
+/* ++++ Header-Navbar ++++ */
+
+.kochkurs-header-navbar {
+	float: left;
+	width: 66.66666666666667%;
+	height: 85px;
+}
+
+.kochkurs-navbar {
+	margin-left: 7px;
+	margin-right: 7px;
+	height: 85px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+nav {
+	z-index: 10;
+	margin: 0 auto;
+	width: 70%;
+	height: 85px;
+}
+
+nav ul {
+	width: 100%;
+	height: 85px;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	width: 25%;
+}
+
+nav ul li a {
+	display: block;
+	text-align: center;
+	line-height: 85px;
+	font-weight: bold;
+	font-family: Arial;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none !important;
+}
+
+nav ul li a:hover {
+	transition: 1s;
+	color: #FFFFFF;
+	background: #D8D8D8;
+}
+
+.toggle {
+	width: 100%;
+	height: 85px;
+	display: none;
+}
+
+.toggle>i {
+	display: block;
+	line-height: 85px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+
+/* ++++ Header-Management ++++ */
+
+.kochkurs-header-tool-system {
+	float: left;
+	width: 16.666666667%;
+	height: 85px;
+}
+
+.kochkurs-tool-system-inside {
+	margin-left: 1px;
+	margin-right: 1px;
+	height: 85px;
+}
+
+.kochkurs-tool-system {
+	width: 100%;
+	height: 85px;
+}
+
+.kochkurs-tool-system i {
+	display: block;
+	cursor: pointer;
+	float: left;
+	width: 33.333333333333%;
+	height: 85px;
+	line-height: 85px;
+	text-align: center;
+	font-size: 25px;
+}
+
+
+
+/* ++++ Header-Cart ++++ Einkaufswagen */
+
+#cart {
+	text-decoration: none !important;
+	color: #000000;
+	
+}
+
+/* ++++ Main ++++ */
+
+main {
+	width: 100%;
+	height: auto;
+	
+}
+
+
+
+/* Caption text */
+
+.text {
+	color: #2E64FE;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 80px;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+
+/* Fading animation */
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+
+/* ++++ Content ++++ */
+
+.around {
+	margin-left: 0;
+	margin-right: 0;
+	height: auto;
+	
+	
+}
+
+.around-inside-center {
+	margin: 0 auto;
+	max-width: 1140px;
+	height: auto;
+	
+
+}
+
+
+/* ++++ Motion Header ++++ */
+
+.motion {
+	display: block;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	background-color:#b6d7e0 ;
+}
+
+
+/* ++++ Headline ++++ */
+
+.motion-header {
+	width: 100%;
+	height: auto;
+}
+
+.motion-header-inside {
+	margin-left: 20px;
+	margin-right: 20px;
+	height: auto !important;
+}
+
+.header-fullsize {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	line-height: 60px !important;
+	text-align: center;
+	font-size: 20px !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+	letter-spacing: 3px;
+}
+
+
+/* ++++ Image ++++ */
+
+.motion-content {
+	width: 100%;
+	height: auto;
+
+}
+
+.motion-content-inside {
+	margin: 0 auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: auto;
+}
+
+.motion-fullsize {
+	width: 100%;
+	height: auto;
+	text-align:center;
+}
+.motion-fullsizeKursvorschau {
+	width: 100%;
+	height: auto;
+	text-align:center;
+	font-weight: bold;
+}
+
+.content-first {
+	float: left;
+	width: 255px;
+	height: auto;
+	margin: 10px 10px;
+}
+
+
+
+
+
+.content-first1 {
+	float: left;
+	width: 128px;
+	height: auto;
+	margin: 30px 10px;
+}
+
+
+
+h5 {
+	float: left;
+	width: 100%;
+	padding-left: 10px;
+	font-size: 17px !important;
+	line-height: 20px;
+}
+
+.price {
+	padding-left: 10px;
+	display: block;
+	line-height: 20px;
+}
+
+.price2 {
+	display: block;
+	padding-left: 10px;
+	line-height: 20px;
+	font-weight: bold;
+	color: #58FA58;
+}
+
+s {
+	color: red;
+}
+
+
+/* ++++ Discover btn ++++ */
+
+.discover-btn {
+	float: left;
+	width: 100%;
+	height: 50px;
+}
+
+.discover-inside {
+	margin: 0 auto;
+	width: 300px;
+	height: 50px;
+}
+
+.button {
+	width: 100%;
+	height: 50px;
+}
+
+.discover-btn p {
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #083f63;
+}
+
+.discover-btn a {
+	text-decoration: none !important;
+}
+
+.discover-btn p:hover {
+	background-color: #424242;
+	transition: 1s;
+}
+
+/* ++++ Group ++++ */
+.request-group{
+	margin-left: 30%;
+}
+
+/* ++++ Footer ++++ */
+
+footer {
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #083f63;
+}
+
+.footer-inside-container {
+	margin: 0 auto;
+	max-width: 1140px;
+	height: auto;
+}
+
+.footer-pusher {
+	float: left;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #D8D8D8;
+}
+
+
+/* ++++ Main-Footer ++++ */
+
+.main-footer {
+	width: 100%;
+	height: 330px;
+}
+
+.footer-headline {
+	width: 100%;
+	height: auto;
+}
+
+h6 {
+	padding: 0 15px;
+	line-height: 40px !important;
+	font-size: 20px !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+
+/* #### Shop #### */
+
+.kochkurs-shop-container {
+	margin: 50px 10px;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+.kochkurs-shop-container ul {
+	width: 100%;
+	height: auto;
+}
+
+.kochkurs-shop-container ul li {
+	padding: 0 15px;
+	width: 100%;
+	list-style: none;
+}
+
+.kochkurs-shop-container ul li a {
+	display: block;
+	text-decoration: none !important;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+
+/* #### About #### */
+
+.kochkurs-about-container {
+	margin: 50px 55px;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+.kochkurs-about-container ul {
+	width: 100%;
+	height: auto;
+}
+
+.kochkurs-about-container ul li {
+	padding: 0 15px;
+	width: 100%;
+	list-style: none;
+}
+
+.kochkurs-about-container ul li a {
+	display: block;
+	text-decoration: none !important;
+	line-height: 40px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+/* #### Info #### */
+
+.kochkurs-info-container {
+	margin: 50px 55px;
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+.kochkurs-info-container ul {
+	width: 100%;
+	height: auto;
+}
+
+.kochkurs-info-container ul li {
+	padding: 0 15px;
+	width: 100%;
+	list-style: none;
+}
+
+.kochkurs-info-container ul li a {
+	display: block;
+	text-decoration: none !important;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+/* ++++ Designer - Developer - Social ++++ */
+
+.webdesigner-developer-social-container {
+	width: 1140px;
+	height: auto;
+}
+
+.webdesigner-developer-social-inside {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/* ++++ Designer-Developer ++++ */
+
+.designer-developer {
+	float: right;
+	width: 600px;
+	height: auto;
+}
+
+.designer-developer>span {
+	float: right;
+	width: 100%;
+	text-align: right !important;
+	font-size: 15px !important;
+	line-height: 80px;
+	color: #FFFFFF;
+}
+
+
+/*===========================================
+################ secound css ################                         
+===========================================*/
+
+
+.shop-navbar {
+	width: 100%;
+	height: auto;
+}
+
+h3 {
+	font-size: 18px !important;
+	padding: 0 25px;
+	line-height: 50px !important;
+}
+
+.pic-navbar {
+	width: 100%;
+	height: 300px;
+	cursor: pointer;
+}
+
+
+
+/* ++++ warenkorb ++++ */
+
+.entstation-content{
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	background-color: #b6d7e0;
+}
+
+.endstation-inside-content{
+	margin: 0 auto;
+	width: 1140px;
+	height: auto;
+}
+
+.entstation-fullsize{
+	width: 100%;
+	height: auto;
+}
+
+.fullsize-left-content{
+	float: left;
+	width: 500px;
+	height: auto;
+}
+/* weißer kasten breite*/
+.fullsize-img-container{
+	margin: 50px auto;
+	width: 350px;
+	height: auto;
+}
+
+/* Weißer kasten höhe*/
+.img-sale-end{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+}
+
+.items-right-content{
+	float: left;
+	width: 640px;
+	height: auto;
+}
+
+.items-right-inside-content{
+	margin: 50px auto;
+	width: 600px;
+	height: auto;
+}
+
+.items-information-container{
+	width: 100%;
+	height: auto;
+}
+
+/* ++++ Article ++++ */
+.article-name{
+	width: 100%;
+	height: auto;
+}
+
+.article-inside{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+}
+
+.article{
+	width: 100%;
+	height: auto;
+}
+
+h4{
+	line-height: 50px !important; 
+	
+}
+
+/* ++++ Description ++++ */
+
+.article-description{
+	width: 100%;
+	height: auto;
+}
+
+.article-inside-description{
+	margin: 0 auto;
+	width: 80%;
+	height: 300px;
+}
+
+.description{
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+}
+
+.description p{
+	float: left;
+	width: 100%;
+	line-height: 50px;
+}
+
+/* ++++ Payment ++++ */
+.payment-to-End{
+	width: 100%;
+	height: auto;
+}
+
+.payment-to-End-inside{
+	width: 100%;
+	height: auto;
+}
+
+.payment{
+	width: 100%;
+	height: 50px;
+}
+
+.payment p{
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 23px;
+	letter-spacing: 0.5px;
+	border-radius: 5px;
+	background-color: #083f63;
+}
+
+.payment p:hover{
+	transition: 1s;
+	background-color: #D8D8D8;
+}
+
+
+
+
+
+
+
+
+
+/* Dateneingabe */ 
+
+
+
+/* Übergang head und body */ 
+.entstation-content1{
+	float: left;
+	margin-top: 5px;
+	width: 100%;
+	height: auto;
+	background-color: #b6d7e0;
+}
+/* Grauer kasten */ 
+.endstation-inside-content1{
+	margin: 0 auto;
+	width: 1140px;
+
+}
+
+
+/* abstand links zur Schrift */ 
+.items-right-content1{
+	float: left;
+	width: 900px;
+	height: auto;
+}
+/* textausrichtung innen */ 
+.items-right-inside-content1{
+	margin: 50px auto;
+	width: 600px;
+	height: auto;
+}
+
+/*  */ 
+.items-information-container1{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+/*  */ 
+.article-description1{
+	width: 100%;
+	height: auto;
+}
+
+/* Schwarzer Kasten */ 
+.article-inside-description1{
+	margin: 0 auto;
+	width: 100%;
+	height: 600px;
+}
+
+/* Schriftformat/ -abstand */ 
+.description1 p{
+	float: left;
+	width: 100%;
+	line-height: 50px;
+}
+
+/* Schwarzer kasten */
+.payment-to-End1{
+	width: 100%;
+	height: auto;
+}
+
+/* breite Schwarzer kasten */
+.payment-to-End-inside1{
+	width: 40%;
+	height: auto;
+}
+
+
+.payment1 p{
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 23px;
+	letter-spacing: 0.5px;
+	border-radius: 5px;
+	background-color: #083f63;
+}
+
+.payment1 > p > a{
+	text-decoration: none !important;
+	color: #FFFFFF;
+}
+
+.payment1 p:hover{
+	transition: 1s;
+	background-color: #D8D8D8;
+}
+
+
+
+
+
+/* bestaetigung */ 
+
+/* Grauer kasten */ 
+.description2 p{
+	float: left;
+	width: 100%;
+	line-height: 28px;
+}
+
+
+select{
+	float: left;
+	width:150px;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+}
+
+.article-info{
+	float: left;
+	margin-top: 50px;
+	font-weight: bold;
+}

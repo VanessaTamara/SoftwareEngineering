@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  
+      <!-- #### verknüpfung responsive css #### -->
+      <link rel="stylesheet" type="text/css" href="../kochkurs/css/responsive.css">
+	  
+      <!-- #### verknüpfung style css #### -->
+      <link rel="stylesheet" type="text/css" href="../kochkurs/css/style.css">
+	  
+      <!-- #### verknüpfung fontawesome css #### Suche, Login, Einkaufswagen-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	  
+      <!-- #### Verknüpfung JQUERY #### -->
+      <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+	  
+      <!-- #### Verknüpfung Bootstrap #### -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     
+	 <!-- Verknüpfung Tab-Icon  / BILD IM TITLE -->
+      <link rel="shortcut icon" type="image/jpg" href="../kochkurs/image/logo/kochkursLogo.jpg">
+     
+	 <title>Kochkurs | Für mehr Geschmack</title>
+   </head>
+   
+   <body>
+      <!-- **** Header **** -->
+      <header>
+         <div class="header-pusher"></div>
+         <div class="rows">
+            <div class="container-fluid">
+               <!-- #### LOGO #### -->
+               <section class="kochkurs-header-logo">
+                  <div class="kochkurs-logo">
+                     <a href="home.html">
+                     <img src="../kochkurs/image/logo/kochkursLogo.jpg" alt="Kochkurs-Logo"  height="auto" style="height:95% " >
+                     </a>
+                  </div>
+               </section>
+               <!-- #### Navbar #### -->
+               <section class="kochkurs-header-navbar">
+                  <div class="kochkurs-navbar">
+                     <nav>
+                        <ul>
+                           <li><a href="home.html">HOME</a></li>
+                           <li><a href="kochkurse.html">KOCHKURSE</a></li>
+						   <li><a href="group.html">GRUPPENKURS</a></li>
+                           <li><a href="recipes.html">REZEPTE</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </section>
+               <!-- #### management-tool-system #### -->
+               <section class="kochkurs-header-tool-system">
+                  <div class="kochkurs-tool-system-inside">
+                     <div class="kochkurs-tool-system">
+                           <a href="home.html">
+                                 <i class="fas fa-home" style="color:black"></i>
+                             </a>
+                             <a href="login.html">
+                              <i class="fas fa-user" style="color: #b6d7e0;"></i>
+                        </a>
+						<a href="warenkorb.html">
+							<i class="fas fa-shopping-cart" id="cart"></i>
+						</a>
+                     </div>
+                  </div>
+                  <!-- #### Navbar - Toggle #### -->
+                  <div class="toggle">
+                     <i class="fas fa-bars menu"></i>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </header>
+	  
+	  
+	  
+	  
+	  
+      <!-- **** Main **** -->
+      <main>	  
+               
+         <div id="kursKasten">
+            <!-- Contents --><!-- dieser Bereich ist dynamisch  -->   
+                 
+			 </div>
+			   
+			   
+			    <!-- Content 2 GRILLEN   AAAAALT STATISCH
+               <div class="motion">
+                   Header 
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize">
+							</br>
+                           <h1> FLEISCH- & GRILLKURS </h1>
+                        </div>
+                     </div>
+                  </div>
+                   Image-Content 
+                  <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsize">
+                           <div class="content-first">
+                              <img src="../kochkurs/image/kochkursArt/grillkurs.jpg" alt="Grillkurs" width="100%" height="auto">
+							  
+                           </div>
+                           <div class="content-first">
+                               <h4> Leistungen </h4>
+								 <ul>
+									<li>Aperitif zur Begrüßung</li>
+									<li>Kochzutaten und Utensilien</li>
+									<li>Mehrstündiger Kochkurs unter professioneller Leitung ausgebildeter Köche</li>
+									<li>Zubereitung von Grillspezialitäten</li>
+									<li>Gemeinsame Verkostung</li>
+									<li>Rezepte zum Download</li>
+								 </ul>
+							  
+                           </div>
+						   <div class="content-first">
+                               <h4> Informationen </h4>
+								 <ul>
+									<li><strong>Teilnehmer:</strong> 6-10 Personen</li></br>
+									
+									<li><strong>Dauer:</strong> ca. 3-4 Stunden</li></br>
+									<li><strong>Ausrüstung:</strong> Kochschürze</li></br>
+									<li><strong>Verfügbarkeit:</strong> Ganzjährig</li></br>
+									
+								 </ul>
+							  
+                           </div>
+                          
+						  <div class="content-first">
+                               <h4> Preis </h4></br>
+								 
+								 <ul>
+									<li><h4>99,90€ / pro Person</h4></li>					
+									<li>zzgl. Verpackung & Versand (inkl. Mwst.)</li>								
+								 </ul>
+							  
+                           </div>
+						  
+                        </div>
+                     </div>
+                  </div>
+                  <div class="discover-btn">
+                     <div class="discover-inside">
+                        <div class="button">
+                           <a href="warenkorb.html">
+                              <p> IN DEN WARENKORB </p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+			   
+			   
+			   Content 3 ITALIENISCH
+               <div class="motion">
+                   Header
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize">
+							</br>
+                           <h1> ITALIENISCH </h1>
+                        </div>
+                     </div>
+                  </div>
+                   Image-Content
+                  <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsize">
+                           <div class="content-first">
+                              <img src="../kochkurs/image/kochkursArt/italienisch.jpg" alt="Italienisch" width="100%" height="auto">
+							  
+                           </div>
+                           <div class="content-first">
+                               <h4> Leistungen </h4>
+								 <ul>
+									<li>Aperitif zur Begrüßung</li>
+									<li>Kochzutaten und Utensilien</li>
+									<li>Professionelle Anleitung während des Kochkurses</li>
+									<li>Erklärung der verwendeten Zutaten</li>
+									<li>Gemeinsame Verkostung</li>
+									<li>Rezepte zum Download</li>
+								 </ul>
+							  
+                           </div>
+						   <div class="content-first">
+                               <h4> Informationen </h4>
+								 <ul>
+									<li><strong>Teilnehmer:</strong> 6-10 Personen</li></br>
+									
+									<li><strong>Dauer:</strong> ca. 3-4 Stunden</li></br>
+									<li><strong>Ausrüstung:</strong> Kochschürze</li></br>
+									<li><strong>Verfügbarkeit:</strong> Ganzjährig</li></br>
+									
+								 </ul>
+							  
+                           </div>
+                          
+						  <div class="content-first">
+                               <h4> Preis </h4></br>
+		
+								
+								 <ul>
+									<li><h4>99,90€ / pro Person</h4></li>					
+									<li>zzgl. Verpackung & Versand (inkl. Mwst.)</li>
+									
+																		
+								 </ul>
+								
+							  
+                           </div>
+						  
+                        </div>
+                     </div>
+                  </div>
+                  <div class="discover-btn">
+                     <div class="discover-inside">
+                        <div class="button">
+                           <a href="warenkorb.html">
+                              <p> IN DEN WARENKORB </p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+			   
+			   
+			   
+			   
+			   
+			    Content 4 BACKKURS 
+               <div class="motion">
+                  Header
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize">
+							</br>
+                           <h1> BACKKURS </h1>
+                        </div>
+                     </div>
+                  </div>
+                   Image-Content
+                  <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsize">
+                           <div class="content-first">
+                              <img src="../kochkurs/image/kochkursArt/backkurs.jpg" alt="Backkurs" width="100%" height="auto">
+							  
+                           </div>
+                           <div class="content-first">
+                               <h4> Leistungen </h4>
+								 <ul>
+									<li>Befüllen und Verzieren von 4 vorgebackenen Kleintorten</li>
+									<li>Erlernen verschiedener Fertigkeiten der Tortendekoration</li>
+									<li>Eigener Arbeitsplatz, Arbeitsgeräte und Rohstoffe</li>
+									<li>Alle Torten in einer dekorativen Tortenbox für Zuhause</li>
+								 </ul>
+							  
+                           </div>
+						   <div class="content-first">
+                               <h4> Informationen </h4>
+								 <ul>
+									<li><strong>Teilnehmer:</strong> 6-10 Personen</li></br>
+									
+									<li><strong>Dauer:</strong> ca. 3-4 Stunden</li></br>
+									<li><strong>Ausrüstung:</strong> Kochschürze</li></br>
+									<li><strong>Verfügbarkeit:</strong> Ganzjährig</li></br>
+									
+								 </ul>
+							  
+                           </div>
+                          
+						  <div class="content-first">
+                               <h4> Preis </h4></br>
+								 <ul>
+									<li><h4>125,90€ / pro Person</h4></li>					
+									<li>zzgl. Verpackung & Versand (inkl. Mwst.)</li>
+									
+																		
+								 </ul>
+
+							  
+                           </div>
+						  
+                        </div>
+                     </div>
+                  </div>
+                  <div class="discover-btn">
+                     <div class="discover-inside">
+                        <div class="button">
+                           <a href="warenkorb.html">
+                              <p> IN DEN WARENKORB </p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+			   
+			   -->
+			   
+			   <!-- Content 5 -->
+               <div class="motion">
+                  <!-- Header -->
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize">
+							</br>
+                           <h1> REZEPTE </h1>
+                        </div>
+                     </div>
+                  </div>
+               <!-- Image-Content -->
+               <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsize">
+                           <p> Du hast Lust unsere Gerichte nachzukochen? Dann schau dir doch unsere Rezepte an</p>     </br>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="discover-btn">
+                     <div class="discover-inside">
+                        <div class="button">
+                           <a href="recipes.html">
+                              <p> Zu den Rezepten! </p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+			   
+			   
+            </div>
+         </div>
+      </main>
+      <!-- **** Footer **** -->
+      <footer>
+         <div class="footer-inside-container">
+            <div class="main-footer">
+               <div class="kochkurs-shop-container">
+                  <div class="footer-headline">
+                     <h6> Shop </h6>
+                     <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="kochkurse.html">KOCHKURSE</a></li>
+                        <li><a href="group.html">GRUPPENKURSE</a></li>
+                        <li><a href="recipes.html">REZEPTE</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="kochkurs-info-container">
+                  <div class="footer-headline">
+                     <h6> Info </h6>
+                     <ul>
+                        <li><a href="group.html">kontakt</a></li>
+                        <li><a href="impressum.html">datenschutz</a></li>
+                        <li><a href="impressum.html">widerrufsrecht</a></li>
+                        <li><a href="impressum.html">impressum</a></li>
+                     </ul>
+                  </div>
+               </div>
+               
+            </div>
+            <div class="footer-pusher"></div>
+            <div class="webdesigner-developer-social-container">
+               <div class="webdesigner-developer-social-inside">
+                  <!-- Socical - Media -->
+                 
+                  <div class="designer-developer">
+                     <span> Designed by Vanessa Frey & Vanessa Hahn </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+	  
+      <!-- **** Script Menu-Toggle **** -->
+      <script src="../kochkurs/javascript/menu/menu-toggle.js"></script>
+      <!-- **** Script Search **** -->
+      <script src="../kochkurs/javascript/search/search.js"></script> 
+	  <!-- **** Script Search **** -->
+      <script src="../kochkurs/javascript/cart/cart.js"></script>  
+
+      <script>
+
+            $(document).ready(function() {
+   
+               $.ajax({
+                  url: 'http://localhost:8000/api/Kochkurs/alle',
+                  method: 'GET',
+                  dataType: "json"
+               })
+               .done(function(response) {
+                  var kurse = response.daten;
+   
+                  var content = '';
+   
+                  for (i=0; i<kurse.length; i++) {
+
+                     // Titel
+                     content += '<div class="motion">';
+                     content += '<div class="motion-header">';
+                     content += '<div class="motion-header-inside">';
+                     content += '<div class="header-fullsize">';
+                     content += '</br> <h1>';
+                     content += kurse[i].titel;
+                     content += '</h1> </div>'; 
+                     content += '</div>'; 
+                     content += '</div>'; 
+                        
+                    //Image Content
+                     content += '<div class="motion-content">';
+                     content += '<div class="motion-content-inside">';
+                     content += '<div class="motion-fullsize">';
+
+                     //Imagepath
+                     content += '<div class="content-first">';
+                     content += ' <img src="';
+                     content += kurse[i].src;
+                     content += '"width="100%" height="auto">';
+                     content += '</div>'; 
+
+                     //Leistungen
+                     content += '<div class="content-first">';
+                     content += '<h4> Leistungen </h4>';
+                     content += kurse[i].leistungen;
+                     content += '</br> </br></div>'; 
+
+                     //Informationen
+                     content += '<div class="content-first">';
+                     content += '<h4> Informationen </h4>';
+                     content += kurse[i].informationen;
+                     content += '</div>'; 
+
+                     //Preis
+                     content += '<div class="content-first">';
+                     content += '<h4> Preis </h4> </br> <h4>';
+                     content += kurse[i].bruttopreis;
+                     content += '0€ / pro Person </h4> zzgl. Verpackung & Versand (inkl. Mwst.)'; 
+                     content += '</div>'; 
+                     
+
+                     content += '</div>'; 
+                     content += '</div>'; 
+                     content += '</div>'; 
+
+                     // In den Warenkorb legen
+
+                     content += '<div class="discover-btn">';
+                     content += '<div class="discover-inside">';
+                     content += '<div class="button">';
+                     content += '<a href="warenkorb.html"> <p> IN DEN WARENKORB </p> </a>';
+
+                     content += '</div>'; 
+                     content += '</div>'; 
+                     content += '</div>'; 
+                     content += '</div>'; 
+
+                  }
+   
+                  $('#kursKasten').append(content);
+               })
+               .fail(function (jqXHR, statusText, error) {
+                   console.log("Response Code: " + jqXHR.status + " - Fehlermeldung: " + jqXHR.responseText);
+                   alert("Ein Fehler ist aufgetreten, hier soll der Titel der Leistung erscheinen");
+               });;
+
+            });
+         
+  
+         </script>
+
+   </body>
+</html>

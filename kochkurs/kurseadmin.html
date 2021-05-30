@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+      <!-- #### verknüpfung responsive css #### -->
+      <link rel="stylesheet" type="text/css" href="../kochkurs/css/responsive.css">
+      <!-- #### verknüpfung style css #### -->
+      <link rel="stylesheet" type="text/css" href="../kochkurs/css/style.css">
+      <!-- #### verknüpfung fontawesome css #### -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <!-- #### Verknüpfung JQUERY #### -->
+      <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+      <!-- #### Verknüpfung Bootstrap #### -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-- Verknüpfung Tab-Icon -->
+      <link rel="shortcut icon" type="image/jpg" href="../kochkurs/image/logo/kochkursLogo.jpg">
+      <title>Dateneingabe | One more realize</title>
+   </head>
+   <body>
+      <!-- **** Header **** -->
+      <header>
+         <div class="header-pusher"></div>
+         <div class="rows">
+            <div class="container-fluid">
+               <!-- #### LOGO #### -->
+               <section class="kochkurs-header-logo">
+                  <div class="kochkurs-logo">
+                     <a href="index.html">
+                           <img src="../kochkurs/image/logo/kochkursLogo.jpg" alt="Kochkurs-Logo"  height="auto" style="height: 95%; ">
+                        </a>
+                  </div>
+               </section>
+               <!-- #### Navbar #### -->
+               <section class="kochkurs-header-navbar">
+                  <div class="kochkurs-navbar">
+                     <nav>
+                           <ul>
+                                 <li><a href="home.html">HOME</a></li>
+                                 <li><a href="kochkurse.html">KOCHKURSE</a></li>
+                                 <li><a href="group.html">GRUPPENKURS</a></li>
+                                 <li><a href="recipes.html">REZEPTE</a></li>
+                           </ul>
+                     </nav>
+                  </div>
+               </section>
+               <!-- #### management-tool-system #### -->
+               <section class="kochkurs-header-tool-system">
+                  <div class="kochkurs-tool-system-inside">
+                     <div class="kochkurs-tool-system">
+                           <a href="home.html">
+                                 <i class="fas fa-home" style="color:black"></i>
+                            </a>
+                            <a href="login.html">
+                              <i class="fas fa-user" style="color: #b6d7e0;"></i>
+                        </a>
+                        <a href="warenkorb.html">
+                              <i class="fas fa-shopping-cart" id="cart"></i>
+                           </a>
+                     </div>
+                  </div>
+                  <!-- #### Navbar - Toggle #### -->
+                  <div class="toggle">
+                     <i class="fas fa-bars menu"></i>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </header>
+      <!-- **** Main **** -->
+      <main>
+      </br> </br> 
+         <div class="entstation-content1">
+			<div class="endstation-inside-content1">
+				
+					<section class="fullsize-left-content1">
+					</section>
+					<section class="items-right-content1">
+						<div class="items-right-inside-content1">
+							<div class="items-information-container1" id="nachdemspeichern">
+								<h4> Bitte geben Sie den neuen Kurs ein: </h4>		
+								<div class="article-description1">
+									<div class="article-inside-description1">
+										<div class="description1">
+                                 <table>
+                                    <tr>
+                                       <td><strong>Titel: </strong></td>
+                                       <td><input type="text" name="Titel" id="titel" placeholder="Titel"/></td>
+                                    </tr>
+                                    <tr>
+                                       <td><strong>Leistungen: </strong></td>
+                                       <td><input type="text" name="leistungen" id="leistungen" placeholder="Leistungen"/></td>
+                                    </tr>
+                                    <tr>
+                                       <td><strong>Informationen: </strong></td>
+                                       <td> <input type="text" name="informationen" id="informationen" placeholder="Informationen"/></td>
+                                    </tr>
+                                    <tr>
+                                       <td><strong>BruttoPreis: </strong></td>
+                                       <td><input type="text" name="Bruttopreis" id="bruttopreis" placeholder="Bruttopreis"/></td>
+                                    </tr>
+
+                                    <tr>
+                                          <td><strong>Bildpfad: </strong></td>
+                                          <td><input type="text" name="bildpfad" id="src" placeholder="src"/></td>
+                                       </tr>
+                                    
+                                 </table>
+                                 </br></br></br>
+                                 <div class="discover-btn">
+                                       <div class="payment-to-End1">
+                                          <div class="payment-to-End-inside1">
+                                             <div class="payment1">
+                                                <p><button type="button" id="kursspeichern">Speicher</button></p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                 </div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</section>
+				
+			</div>
+		 </div>
+      </main>
+      <!-- **** Footer **** -->
+      <footer>
+         <div class="footer-inside-container">
+            <div class="main-footer">
+               <div class="kochkurs-shop-container">
+                  <div class="footer-headline">
+                     <h6> Shop </h6>
+                     <ul>
+                           <li><a href="home.html">HOME</a></li>
+                           <li><a href="kochkurse.html">KOCHKURSE</a></li>
+                           <li><a href="gruppen.html">GRUPPENKURSE</a></li>
+                           <li><a href="recipes.html">REZEPTE</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="kochkurs-info-container">
+                  <div class="footer-headline">
+                     <h6> Info </h6>
+                     <ul>
+                        <li><a href="group.html">kontakt</a></li>
+                        <li><a href="impressum.html">datenschutz</a></li>
+                        <li><a href="impressum.html">widerrufsrecht</a></li>
+                        <li><a href="impressum.html">impressum</a></li>
+                     </ul>
+                  </div>
+               </div>
+               
+            </div>
+            <div class="footer-pusher"></div>
+            <div class="webdesigner-developer-social-container">
+               <div class="webdesigner-developer-social-inside">
+                 
+                  <div class="designer-developer">
+                        <span> Designed by Vanessa Frey & Vanessa Hahn </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- **** Script Menu-Toggle **** -->
+      <script src="../kochkurs/javascript/menu/menu-toggle.js"></script>
+      <!-- **** Script Slideshow **** -->
+     <!-- <script src="../kochkurs/javascript/slideshow/carousel.js"></script> -->
+	  <!-- **** Script Search **** -->
+	  <script src="../kochkurs/javascript/search/search.js"></script> 
+	  <!-- **** Script Search **** -->
+     <script src="../kochkurs/javascript/imagetoggle/imagetool.js"></script>
+     
+
+     <script>
+     
+      $(document).ready(function() {
+
+         $('#kursspeichern').click(function() {
+            console.log("button kursspeichern wurde geklickt");
+
+            var bp = $('#bruttopreis').val();
+            bp = bp.replace(',', '.');
+            bp = parseFloat(bp);
+
+            var obj = { 
+               'titel': $('#titel').val(),
+               'leistungen': $('#leistungen').val(),
+               'informationen': $('#informationen').val(),
+               'bruttopreis': bp,
+               'src':  $('#src').val()
+            };
+
+            console.log(obj);
+
+            $.ajax({
+                url: "http://localhost:8000/api/kochkurs",
+                method: "post",
+                  contentType: "application/json",
+                  data: JSON.stringify(obj)
+            }).done(function (response) {
+                console.log(response);
+                // TODO Hier landet das ergebnis vom Server, entsprechend eigene Dinge tun
+                // window.locations.href = "sldhgoasdhgl.html"
+                 $('#nachdemspeichern').html('<b>Vielen Dank! Der Kochkurs wurde erfolgreich gespeichert!</b>');
+            }).fail(function (jqXHR, statusText, error) {
+                console.log("Response Code: " + jqXHR.status + " - Fehlermeldung: " + jqXHR.responseText);
+                alert("Der Kochkurs konnte leider nicht gespeichert werden");
+            });
+            
+
+         });
+      
+      });
+     
+     </script>
+   </body>
+</html>

@@ -1,0 +1,364 @@
+/*=======================================
+########## Desktop large 1200px #########
+=======================================*/
+
+@media screen and (max-width: 1200px) {
+	
+	/* #### Navbar - FINISH #### */
+	nav {
+		width: 88% !important;
+	}
+	.kochkurs-tool-system i {
+		font-size: 23px !important;
+	}
+	
+	/* #### Around-inside-center - FINISH #### */
+	.around-inside-center {
+		max-width: 960px !important;
+	}
+	/* #### Content-first - FINISH #### */
+	.content-first {
+		max-width: 210px !important;
+	}
+	/* #### Footer - FINISH #### */
+	.footer-inside-container {
+		max-width: 960px !important;
+	}
+	/* secound-Footer - FINISH #### */
+	.webdesigner-developer-social-container {
+		max-width: 960px !important;
+	}
+	
+	
+	/* #### Fullsize-image-tool #### */
+	.fullsize-inside-content{
+		width: 960px !important;
+	}
+	/* #### Endstation - FINISH #### */
+	.endstation-inside-content{
+		width: 960px !important;
+	}
+	.fullsize-left-content{
+		width: 400px !important;
+	}
+	.fullsize-img-container{
+		width: 325px !important;
+		height: 375px !important;
+	}
+	.items-right-content{
+		width: 560px !important;
+	}
+	.items-right-inside-content{
+		width: 500px !important;
+	}
+}
+
+
+/*=======================================
+########## Desktop large 992px #########
+=======================================*/
+
+@media screen and (max-width: 992px) {
+	/* #### Navbar - FINISH #### */
+	nav {
+		position: absolute;
+		top: 85px;
+		width: 100% !important;
+		height: auto !important;
+		right: 0;
+		background-color: #086A87;
+	}
+	nav ul {
+		position: relative;
+		display: grid;
+		width: 100% !important;
+		height: auto !important;
+		display: none;
+	}
+	nav ul li {
+		width: 100% !important;
+		display: block !important;
+	}
+	nav ul li a {
+		border-bottom: 1px solid black;
+	}
+	.toggle {
+		display: block !important;
+	}
+	.active {
+		display: block !important;
+	}
+	/* #### Management-tool-system - FINISH #### */
+	.kochkurs-tool-system-inside {
+		position: absolute;
+		left: 25%;
+		width: 50%;
+		transition: 10s;
+	}
+	/* #### Slideshow - Text - FINISH #### */
+	.text {
+		bottom: 60px !important;
+	}
+	
+	/* #### Around-inside-center - FINISH #### */
+	.around-inside-center {
+		max-width: 720px !important;
+	}
+	/* #### Motion-content-inside - FINISH #### */
+	.motion-content-inside {
+		margin-left: 110px !important;
+		margin-right: 110px !important;
+	}
+	/* #### Content-first - FINISH #### */
+	.content-first {
+		margin: 20px 20px !important;
+		width: 300px !important;
+	}
+	/* #### Footer - FINISH #### */
+	.footer-inside-container {
+		max-width: 560px !important;
+	}
+	/* #### Footer Shop - FINISH #### */
+	.kochkurs-shop-container {
+		margin: 0px !important;
+		width: 560px !important;
+	}
+	/* #### Footer About- FINISH #### */
+	.kochkurs-about-container {
+		margin: 0px !important;
+		width: 560px !important;
+	}
+	/* #### Footer Info - FINISH #### */
+	.kochkurs-info-container {
+		margin: 0px !important;
+		width: 560px !important;
+	}
+	/* #### Footer payment - FINISH #### */
+	.kochkurs-payment-container {
+		margin: 0px !important;
+		width: 560px !important;
+	}
+	/* secound-Footer - FINISH #### */
+	.webdesigner-developer-social-container {
+		max-width: 560px !important;
+	}
+	/* Social-Media - FINISH #### */
+	.social-media {
+		width: 560px !important;
+	}
+	/* designer-developer - FINISH #### */
+	.designer-developer {
+		width: 560px !important;
+	}
+	.designer-developer>span {
+		float: none !important;
+	}
+	/* #### Main-Footer -FINISH #### */
+	.main-footer {
+		height: 800px !important;
+	}
+
+
+	/* #### Fullsize-image-tool #### */
+	.fullsize-inside-content{
+		width: 860px !important;
+	}
+	/* #### Endstation - FINISH #### */
+	.endstation-inside-content{
+		width: 700px !important;
+	}
+	.fullsize-left-content{
+		width: 700px !important;
+	}
+	.fullsize-img-container{
+		width: 350px !important;
+		height: 400px !important;
+	}
+	.items-right-content{
+		width: 700px !important;
+	}
+	.items-right-inside-content{
+		width: 600px !important;
+	}
+}
+
+
+/*=======================================
+########## Desktop large 768px #########
+=======================================*/
+
+@media screen and (max-width: 768px) {
+	
+	/* #### Slideshow - Text - FINISH #### */
+	.text {
+		bottom: 150px !important;
+	}
+	/* #### Around-inside-center - FINISH #### */
+	.around-inside-center {
+		max-width: 540px !important;
+	}
+	/* #### Motion-content-inside - FINISH #### */
+	.motion-content-inside {
+		margin-left: 30px !important;
+		margin-right: 30px !important;
+	}
+	/* #### Content-first - FINISH #### */
+	.content-first {
+		margin: 20px 10px !important;
+		width: 220px !important;
+	}
+	/* #### Discover-inside -FINISH #### */
+	.discover-inside {
+		width: 540px !important;
+	}
+	/* #### Footer - FINISH #### */
+	.footer-inside-container {
+		max-width: 540px !important;
+	}
+	/* #### Footer Shop - FINISH #### */
+	.kochkurs-shop-container {
+		margin: 0px !important;
+		width: 540px !important;
+	}
+	/* #### Footer About- FINISH #### */
+	.kochkurs-about-container {
+		margin: 0px !important;
+		width: 540px !important;
+	}
+	/* #### Footer Info - FINISH #### */
+	.kochkurs-info-container {
+		margin: 0px !important;
+		width: 540px !important;
+	}
+	/* #### Footer payment - FINISH #### */
+	.kochkurs-payment-container {
+		margin: 0px !important;
+		width: 540px !important;
+	}
+	/* secound-Footer - FINISH #### */
+	.webdesigner-developer-social-container {
+		max-width: 540px !important;
+	}
+	/* Social-Media - FINISH #### */
+	.social-media {
+		width: 540px !important;
+	}
+	/* designer-developer - FINISH #### */
+	.designer-developer {
+		width: 540px !important;
+	}
+	
+	
+	/* #### Endstation - FINISH #### */
+	.endstation-inside-content{
+		width: 540px !important;
+	}
+	.fullsize-left-content{
+		width: 540px !important;
+	}
+	.fullsize-img-container{
+		width: 300px !important;
+		height: 350px !important;
+	}
+	.items-right-content{
+		width: 540px !important;
+	}
+	.items-right-inside-content{
+		width: 480px !important;
+	}
+	
+	
+}
+
+
+/*=======================================
+########## Desktop large 567px #########
+=======================================*/
+
+@media screen and (max-width: 567px) {
+	
+	
+
+	/* #### Slideshow - Text - FINISH #### */
+	.text {
+		bottom: 120px !important;
+	}
+	/* #### Around-inside-center - FINISH #### */
+	.around-inside-center {
+		max-width: 100% !important;
+	}
+	/* #### Motion-content-inside - FINISH #### */
+	.motion-content-inside {
+		margin-left: 6px !important;
+		margin-right: 6px !important;
+	}
+	/* #### Content-first - FINISH #### */
+	.content-first {
+		margin: 10px 5px !important;
+		width: 205px !important;
+	}
+	/* #### Discover-inside -FINISH #### */
+	.discover-inside {
+		width: 440px !important;
+	}
+	/* #### Footer - FINISH #### */
+	.footer-inside-container {
+		max-width: 440px !important;
+	}
+	/* #### Footer Shop - FINISH #### */
+	.kochkurs-shop-container {
+		margin: 0px !important;
+		width: 440px !important;
+	}
+	/* #### Footer About- FINISH #### */
+	.kochkurs-about-container {
+		margin: 0px !important;
+		width: 440px !important;
+	}
+	/* #### Footer Info - FINISH #### */
+	.kochkurs-info-container {
+		margin: 0px !important;
+		width: 440px !important;
+	}
+	/* #### Footer payment - FINISH #### */
+	.kochkurs-payment-container {
+		margin: 0px !important;
+		width: 440px !important;
+	}
+	/* secound-Footer - FINISH #### */
+	.webdesigner-developer-social-container {
+		max-width: 440px !important;
+	}
+	/* Social-Media - FINISH #### */
+	.social-media {
+		width: 440px !important;
+	}
+	/* designer-developer - FINISH #### */
+	.designer-developer {
+		width: 440px !important;
+	}
+	
+	
+	/* #### Endstation - FINISH #### */
+	.endstation-inside-content{
+		width: 440px !important;
+	}
+	.fullsize-left-content{
+		width: 440px !important;
+	}
+	.fullsize-img-container{
+		width: 280px !important;
+		height: 325px !important;
+	}
+	.items-right-content{
+		width: 440px !important;
+	}
+	.items-right-inside-content{
+		width: 440px !important;
+	}
+	
+	
+	
+	
+
+}

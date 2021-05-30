@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="de">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  
+      <!-- #### verknüpfung responsive css #### -->
+      <link rel="stylesheet" type="text/css" href="../kochkurs/css/responsive.css">
+	        <!-- #### verknüpfung style css #### -->
+      <link rel="stylesheet" type="text/css" href="../kochkurs/css/style.css">
+	        <!-- #### verknüpfung fontawesome css #### Suche, Login, Einkaufswagen-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	        <!-- #### Verknüpfung JQUERY #### -->
+      <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+	        <!-- #### Verknüpfung Bootstrap #### -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      	 <!-- Verknüpfung Tab-Icon  / BILD IM TITLE -->
+      <link rel="shortcut icon" type="image/jpg" href="../kochkurs/image/logo/kochkursLogo.jpg">
+     
+    <title>Kochkurs | Für mehr Geschmack</title>
+    
+   </head>
+   
+
+   <body>
+      <!-- **** Header **** -->
+      <header>
+         <div class="header-pusher"></div>
+            <div class="rows">
+               <div class="container-fluid">
+                  <!-- #### LOGO #### -->
+                  <section class="kochkurs-header-logo">
+                     <div class="kochkurs-logo">
+                        <a href="home.html">
+                            <img src="../kochkurs/image/logo/kochkursLogo.jpg" alt="Kochkurs-Logo"  height="auto" style="height:95% " >
+                        </a>
+                     </div>
+                  </section>
+
+                  <!-- #### Navbar #### -->
+                  <section class="kochkurs-header-navbar">
+                     <div class="kochkurs-navbar">
+                        <nav>
+                           <ul>
+                              <li><a href="home.html">HOME</a></li>
+                              <li><a href="kochkurse.html">KOCHKURSE</a></li>
+                              <li><a href="group.html">GRUPPENKURS</a></li>
+                              <li><a href="recipes.html">REZEPTE</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </section>
+
+                  <!-- #### management-tool-system #### -->
+                  <section class="kochkurs-header-tool-system">
+                     <div class="kochkurs-tool-system-inside">
+                        <div class="kochkurs-tool-system">
+                           <a href="home.html">
+                              <i class="fas fa-home" style="color:black"></i>
+                           </a>
+                           <a href="login.html">
+                               <i class="fas fa-user" style="color: #b6d7e0;"></i>
+                           </a>
+                           <a href="warenkorb.html">
+                              <i class="fas fa-shopping-cart" id="cart"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <!-- #### Navbar - Toggle #### -->
+                     <div class="toggle">
+                        <i class="fas fa-bars menu"></i>
+                     </div>
+                  </section>
+            </div>
+         </div>
+      </header>
+	  
+	  
+	  
+	  
+	  
+      <!-- **** Main **** -->
+      <main>	  
+	     <!-- **** Content **** -->
+         <!-- around -->
+         <div class="around">
+            <div class="around-inside-center">
+               <div class="motion">
+                  <!-- Header -->
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize"> </br>
+                           <h1>ÜBER UNS</h1>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Image-Content -->
+                  <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsize">
+							      <img src="../kochkurs/image/ueberuns/Kochkurs.jpg" alt="" width="60%" height="auto" >
+                           </br> </br> 
+                           <p class="aboutUs">
+                           vidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
+                           et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                           ipsum dolor sit amet.</p>
+							      </br> </br> 
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Content 2 -->
+               <div class="motion">
+                  <!-- Header -->
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize">
+							      </br>  <h1> KOCHKURSE </h1>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Image-Content -->
+                  <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsizeKursvorschau" id="kursvorschau">
+                              
+                           <!-- KursVorschau mit Titel und Bild dynamisch!-->
+
+                        </div> 
+                     </div>
+                  </div>
+
+                  <div class="discover-btn">
+                     <div class="discover-inside">
+                        <div class="button">
+                           <a href="kochkurse.html">
+                              <p> und viele mehr </p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+
+               <!-- GruppenKurse Home Vorschau bleibt vorerst statisch -->
+               <div class="motion">
+                  <!-- Header -->
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize">
+							      </br> <h1> GRUPPENKURSE </h1>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <!-- Image-Content -->
+                  <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsize">
+						         <div class="content-first1"></div>
+                           <div class="content-first">
+                              <img src="../kochkurs/image/gruppen/kinder.jpg" alt="Kinder" width="100%" height="auto">
+							          </br> </br> KINDER
+                          </div>
+                          <div class="content-first">
+                              <img src="../kochkurs/image/gruppen/maenner.jpg" alt="Maenner" width="100%" height="auto">
+							         </br> </br> MÄNNER
+                           </div>
+                          <div class="content-first">
+                              <img src="../kochkurs/image/gruppen/anfaenger.jpg" alt="Anfaenger" width="100%" height="auto">
+							         </br> </br> ANFÄNGER
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="discover-btn">
+                     <div class="discover-inside">
+                        <div class="button">
+                           <a href="group.html">
+                              <p> UND VIELE MEHR </p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+			   
+			   <!-- Rezeptvorschau -->
+               <div class="motion">
+                  <!-- Header -->
+                  <div class="motion-header">
+                     <div class="motion-header-inside">
+                        <div class="header-fullsize">
+							      </br> <h1> REZEPTE </h1>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Image-Content -->
+                  <div class="motion-content">
+                     <div class="motion-content-inside">
+                        <div class="motion-fullsize">
+                           <p> Du hast Lust unsere Gerichte nachzukochen? Dann schau dir doch unsere Rezepte an</p>     </br>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="discover-btn">
+                     <div class="discover-inside">
+                        <div class="button">
+                           <a href="recipes.html">
+                              <p> Zu den Rezepten! </p>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+			   
+			   
+            </div>
+         </div>
+
+      </main>
+      <!-- **** Footer **** -->
+      <footer>
+         <div class="footer-inside-container">
+            <div class="main-footer">
+               <div class="kochkurs-shop-container">
+                  <div class="footer-headline">
+                     <h6> Shop </h6>
+                     <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="kochkurse.html">KOCHKURSE</a></li>
+                        <li><a href="gruppen.html">GRUPPENKURSE</a></li>
+                        <li><a href="recipes.html">REZEPTE</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="kochkurs-info-container">
+                  <div class="footer-headline">
+                     <h6> Info </h6>
+                     <ul>
+                        <li><a href="group.html">kontakt</a></li>
+                        <li><a href="impressum.html">datenschutz</a></li>
+                        <li><a href="impressum.html">widerrufsrecht</a></li>
+                        <li><a href="impressum.html">impressum</a></li>
+                     </ul>
+                  </div>
+               </div>
+               
+            </div>
+            <div class="footer-pusher"></div>
+            <div class="webdesigner-developer-social-container">
+               <div class="webdesigner-developer-social-inside">
+                  <!-- Socical - Media -->
+                 
+                  <div class="designer-developer">
+                     <span> Designed by Vanessa Frey & Vanessa Hahn </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+	  
+      <!-- **** Script Menu-Toggle **** -->
+      <script src="../kochkurs/javascript/menu/menu-toggle.js"></script>
+      <!-- **** Script Search **** -->
+      <script src="../kochkurs/javascript/search/search.js"></script> 
+	  <!-- **** Script Search **** -->
+      <script src="../kochkurs/javascript/cart/cart.js"></script>
+
+
+      <script>
+
+         $(document).ready(function() {
+
+            $.ajax({
+               url: 'http://localhost:8000/api/Kochkurs/alle',
+               method: 'GET',
+				   dataType: "json"
+            })
+            .done(function(response) {
+               var kurse = response.daten;
+               var id ='';
+               var content = '';
+
+               for (i=0; i<kurse.length; i++) {
+                  //id = kurse[i].id
+                  content += '<div class="content-first">';
+                  content += '<a href="kochkurse.html?scrollTo=' + kurse[i].id + '">';
+                  content += ' <img src="';
+                  // hier jetzt irgendwie src vom produkbild holen
+                  content += kurse[i].src;
+                  //'../kochkurs/image/kochkursArt/sushi.jpg';
+                  content += '"width="100%" height="auto">';
+                  content += '</a>';
+                  content += kurse[i].titel;
+                  content += '</div>'; 
+                  
+
+               }
+
+               $('#kursvorschau').append(content);
+               
+            })
+            .fail(function (jqXHR, statusText, error) {
+                console.log("Response Code: " + jqXHR.status + " - Fehlermeldung: " + jqXHR.responseText);
+                alert("Ein Fehler ist aufgetreten");
+            });;
+
+
+/*
+            var kursnamen = [ "ASIATISCH", "FLEISCH", "ITALO", "BACKEN" ];
+
+            var content = '';
+
+            for (i=0; i<kursnamen.length; i++) {
+               content += '<div class="content-first">';
+               content += kursnamen[i];
+               content += '</div>'; 
+            }
+
+            $('#kursvorschau').append(content);
+*/
+
+         });
+      
+         
+      
+      </script>
+
+
+   </body>
+</html>
