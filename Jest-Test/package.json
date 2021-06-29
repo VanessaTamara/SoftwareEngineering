@@ -1,0 +1,16 @@
+{
+    "name": "jets_testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "GN",
+    "license": "ISC",
+    "devDependencies": {
+        "axios": "^0.19.2",
+        "jest": "^26.0.1"
+    }
+}
